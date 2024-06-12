@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiny5&display=swap');
+h1 {
+color:blue; text-decoration: line-through;
+}
+h2{
+    color:brown;text-transform: uppercase;
+    font-family: "tiny5";
+}
+p{
+    color:rgb(148, 15, 97);
+    font-family: "tiny5";
+}
+.calculadora{
+    background-color: rgb(164, 109, 216);
+    border: 15px solid rgb(79, 18, 221);
+    width: 320px;
+}
+.pantalla{
+    background-color: chartreuse;
+    border: 5px solid rgb(240, 224, 7)
+}
+.pantalla p{
+    color:rgb(79, 18, 221);
+    font-family: 'Times New Roman', Times, serif;
+}
+.teclado{
+    display: grid;
+}
+.teclado button{
+    background-color: brown;
+}
